@@ -1,11 +1,11 @@
 html {
   margin: 0;
   padding: 0;
+  font-family:'Poppins';
 }
  
 body {
   background-color: #faedce;
-  font-family: sans-serif;
 }
 
 .navbar {
@@ -23,6 +23,7 @@ body {
   align-items: center;
   gap: 7cm;
   padding: 30px 9%;
+  min-height: 100vh
 }
 
 .home-content{
@@ -127,8 +128,57 @@ nav li a:hover {
 nav li a.active{
   color: #849073
 }
- 
-.hero {
+
+.experience{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 12% 8%;
+  gap: 10em;
+  background:#FEFAE0;
+  min-height: 100vh;
+}
+
+.experience-content h2{
+  text-align: left;
+  font-size: 40px;
+}
+
+.experience-content h3{
+  font-size: 20px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.experience-content p{
+  font-size: 18px;
+  margin: 20px 0 30px;
+  text-align: justify;
+  text-indent: 1cm
+}
+
+.projects{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 12% 8%;
+  gap: 10em;
+  background:#E0E5B6;
+  min-height: 100vh;
+}
+
+.projects-content h2{
+  text-align: left;
+  font-size: 40px;
+}
+
+.projects-content p{
+  text-align: left;
+  font-size: 18px;
+  margin: 20px 0 30px;
+  text-align: justify;
+}
+/* .hero {
   max-width: 90 px;
   margin: 0 auto;
   text-align: center;
@@ -187,7 +237,7 @@ footer ul li img {
  
 footer p {
   font-size: 0.8em;
-}
+} */
  
 /*@media (min-width: 1040px) {
   .container {
